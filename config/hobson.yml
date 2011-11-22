@@ -1,0 +1,10 @@
+---
+:redis:
+  :host: 127.0.0.1
+  :port: 6379
+  :db: 0
+  :namespace: 'hobson'
+:s3:
+  :access_key_id: INTENTIONALLY_LEFT_BLANK
+  :secret_access_key: INTENTIONALLY_LEFT_BLANK
+  :bucket: INTENTIONALLY_LEFT_BLANK
