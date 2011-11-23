@@ -1,4 +1,9 @@
 PATH
+  remote: .
+  specs:
+    example_hobson_project (0.1)
+
+PATH
   remote: /Users/deadlyicon/Work/change.org/GIT_CLONES/hobson
   specs:
     hobson (0.0.1)
@@ -18,11 +23,6 @@ PATH
       thor (~> 0.14.6)
       uuid
       vegas
-
-PATH
-  remote: .
-  specs:
-    example_hobson_project (0.1)
 
 GEM
   remote: http://rubygems.org/
