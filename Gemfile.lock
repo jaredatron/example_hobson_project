@@ -19,6 +19,11 @@ PATH
       uuid
       vegas
 
+PATH
+  remote: .
+  specs:
+    example_hobson_project (0.1)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -95,6 +100,7 @@ PLATFORMS
 
 DEPENDENCIES
   cucumber
+  example_hobson_project!
   hobson!
   rspec
   ruby-debug
