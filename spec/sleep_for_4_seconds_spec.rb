@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe 'd' do
+describe 'sleeping for 4 seconds' do
 
-  it "should take 4 seconds to run this spec" do
+  it "should take 4 seconds" do
     ExampleHobsonProject.sleep_and_log_for 4
   end
 
