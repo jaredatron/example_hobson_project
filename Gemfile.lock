@@ -4,7 +4,7 @@ PATH
     example_hobson_project (0.1)
 
 PATH
-  remote: /Users/deadlyicon/Work/change.org/GIT_CLONES/hobson
+  remote: /Users/deadlyicon/Work/hobson
   specs:
     hobson (0.0.1)
       SystemTimer
@@ -30,7 +30,7 @@ GEM
     SystemTimer (1.2.3)
     activesupport (3.0.11)
     builder (3.0.0)
-    childprocess (0.2.2)
+    childprocess (0.2.3)
       ffi (~> 1.0.6)
     columnize (0.3.4)
     cucumber (1.1.2)
