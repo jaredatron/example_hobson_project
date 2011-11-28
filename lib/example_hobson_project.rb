@@ -23,3 +23,5 @@ module ExampleHobsonProject
   end
 
 end
+
+sleep 5 # simulate a slow app starting
