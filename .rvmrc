@@ -5,7 +5,7 @@
 
 # First we specify our desired <ruby>[@<gemset>], the @gemset name is optional.
 # [xxx erik] Add the gemset, and then optionally remove it if it doesn't exist
-environment_id="ree-1.8.7-2011.03"
+environment_id="ruby-1.9.2-p290"
 
 if [[ -d "${rvm_path:-$HOME/.rvm}/environments" \
   && ! -s "${rvm_path:-$HOME/.rvm}/environments/$environment_id" ]] ; then
