@@ -1,8 +1,7 @@
 require 'example_hobson_project'
 
+require File.expand_path('../../test/support.rb', __FILE__)
 
-class Fixnum
-  def percent_of_the_time
-    yield if rand(100) <= self
-  end
+RSpec.configure do |config|
+  config.include TestSupport
 end

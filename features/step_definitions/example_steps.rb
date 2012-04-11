@@ -1,3 +1,3 @@
-Then /^this should be an example scenario$/ do
-  true.should be_true
+Then /^this should take ([\d\.]+) seconds? and (pass|fail)$/ do |seconds, result|
+  sleep_and_test seconds.to_f, result
 end

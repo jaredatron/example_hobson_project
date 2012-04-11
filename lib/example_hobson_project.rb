@@ -15,12 +15,5 @@ module ExampleHobsonProject
     end
   end
 
-  def sleep_and_log_for n
-    n.to_i.times do
-      logger.info "sleeping for 1 second"
-      sleep 1
-    end
-  end
-
 end
 
