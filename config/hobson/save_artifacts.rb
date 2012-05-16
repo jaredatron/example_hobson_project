@@ -1,4 +1,1 @@
-puts "HOBSON SAVE ARTIFACTS HOOK"
-root.join('log').children.each{ |path| save_artifact path }
-sleep 2
-ENV['HOBSON_SAVE_ARTIFACTS_HOOK_RUN'] = "true"
+save_artifact('coverage/.resultset.json') if root.join('coverage/.resultset.json').exist?

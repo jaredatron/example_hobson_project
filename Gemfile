@@ -8,6 +8,7 @@ group :development, :test do
   gem 'linecache19', :git => 'git://github.com/mark-moseley/linecache', :platform => :ruby_19
   gem 'ruby-debug-base19x', '~> 0.11.30.pre4', :platform => :ruby_19
   gem "ruby-debug19", :platform => :ruby_19
+  gem 'simplecov', :require => false
 end
 
 group :test do
